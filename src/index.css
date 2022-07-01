@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./Product\ Sans\ Regular.woff') format('woff2');
+}
+
+body {
+  background-color: #F5F4F3;
+  padding: 20px;
+  overflow: scroll;
+  font-family: 'Product Sans';
+  font-weight: 500;
+  color: #272626;
+}
