@@ -9,7 +9,7 @@ export default function Header() {
 	  { title: 'Home', link: '/' },
 	  { title: 'About', link: '/about' },
 	  { title: 'Projects', link: '/projects' },
-	  { title: 'Testamonial', link: '/testamonial' }
+	  { title: 'Testimonial', link: '/testamonial' }
   	]
 
 	const transition = { duration: 0.5, ease: 'easeInOut' }
