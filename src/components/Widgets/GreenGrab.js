@@ -16,13 +16,13 @@ class GreenGrab extends React.Component {
 					this.props.number === 1 ?(
 						<picture>
 							<source media="(min-width: 900px)" srcset={digiseum1}/>
-							<source media="(min-width: 480px)" srcset={digiseum2}/>
+							<source media="(min-width: 380px)" srcset={digiseum2}/>
 							<img src={digiseum1} alt='digi-seum-project'style={{marginTop:"auto"}}/>
 						</picture>
 					):(
 						<picture>
 							<source media="(min-width: 900px)" srcset={digiseum1}/>
-							<source media="(min-width: 480px)" srcset={digiseum2}/>
+							<source media="(min-width: 380px)" srcset={digiseum2}/>
 							<img src={digiseum2} alt='digi-seum-project' style={{marginTop:"auto"}}/>
 						</picture>
 					)
