@@ -17,14 +17,14 @@ class GreenGrab extends React.Component {
 						<picture>
 							<source media="(min-width: 900px)" srcset={digiseum1}/>
 							<source media="(min-width: 480px)" srcset={digiseum2}/>
-							<img src={digiseum1} alt='digi-seum-project'style={{	
-						marginTop:"auto",
-						// height:"100%",
-						// display:"block",
-					}}/>
+							<img src={digiseum1} alt='digi-seum-project'style={{marginTop:"auto"}}/>
 						</picture>
 					):(
-						<img src={digiseum2} alt='digi-seum-project' />
+						<picture>
+							<source media="(min-width: 900px)" srcset={digiseum1}/>
+							<source media="(min-width: 480px)" srcset={digiseum2}/>
+							<img src={digiseum2} alt='digi-seum-project' style={{marginTop:"auto"}}/>
+						</picture>
 					)
 				}
 				
